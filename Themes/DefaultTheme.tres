@@ -1,0 +1,11 @@
+[gd_resource type="Theme" load_steps=3 format=2]
+
+[ext_resource path="res://themes/DefaultButtonStyle.stylebox" type="StyleBox" id=1]
+[ext_resource path="res://Fonts/SmolMenuFont.tres" type="DynamicFont" id=2]
+
+[resource]
+default_font = ExtResource( 2 )
+Button/styles/normal = ExtResource( 1 )
+MenuButton/styles/focus = ExtResource( 1 )
+MenuButton/styles/normal = ExtResource( 1 )
+
