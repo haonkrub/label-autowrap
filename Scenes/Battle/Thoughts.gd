@@ -6,7 +6,8 @@ const scroll_speed = 50
 func create_thought(text):
 	var l = Label.new()
 	l.set_text(text)
-	l.set_autowrap(true)
+	l.anchor_left = 0
+	l.anchor_right = 1
 	l.set_h_size_flags(SIZE_EXPAND_FILL)
 	l.rect_position.y = -10
 	l.theme = load("res://Themes/DefaultTheme.tres")
